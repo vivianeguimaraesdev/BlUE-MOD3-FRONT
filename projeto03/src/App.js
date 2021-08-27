@@ -1,8 +1,14 @@
+import React from 'react';
 import './App.css';
 
-function App() {
+function CardTexto() {
   return (
-    <h1>Hello World</h1>
+    <div className="CardTexto">
+      <div>
+    <h1>Titulo do Card</h1>
+    <p>"Só sei que nada sei"</p>
+    </div>
+    </div>
   );
 }
 
