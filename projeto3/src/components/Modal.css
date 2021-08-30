@@ -1,0 +1,28 @@
+iframe {
+    height: 565px;
+    min-width:1000px; 
+}
+.modalContent h4 {
+    color: #777777
+}
+.modalContent p {
+    padding:1em;
+    text-align:justify;
+}
+.modalContent li { 
+    display: inline-block;
+    padding-left: 0.5em;
+}
+
+.modalContent img{
+    padding: 2em;
+    width: 30em;
+    
+}
+.modalContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #E2E2E2;  
+}
